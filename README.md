@@ -1,4 +1,6 @@
 # ProgressBar
+[![Build status](https://ci.appveyor.com/api/projects/status/3wiacqs82k7a7l0j?svg=true)](https://ci.appveyor.com/project/herbertagosto/progressbar)
+
 Simplify progress bar implementation on winforms
 
 ![Sample](https://github.com/herbertagosto/ProgressBar/blob/master/Resources/sample.png)
