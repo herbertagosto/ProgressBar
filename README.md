@@ -11,32 +11,26 @@ Simplify progress bar implementation on winforms
 ```
 private void button1_Click(object sender, EventArgs e)
 {
-	// start
-	ProgressBar.UI.Start(this);
+	ProgressBar.UI.Start(this);	// start progress bar
+	
+	// any process..
 	for (int i = 0; i < 2; i++)
 	{
-		// long process..
 		System.Threading.Thread.Sleep(1000);
 	}
-	// stop/exit
-	ProgressBar.UI.Stop();
+	
+	ProgressBar.UI.Stop();		// stop progress bar
 }
 ```
 
 ```
 # API:
 ProgressBar.UI.Message = "Progress message";
-
-// Set up speed in milliseconds
-ProgressBar.UI.Interval = 100;
-
-// Pause/play progress
-ProgressBar.UI.Pause();
-ProgressBar.UI.Play();
-
-// Hide/show UI
-ProgressBar.UI.Hide();
-ProgressBar.UI.Show()
+ProgressBar.UI.Interval = 100;		// set progress speed (milliseconds)
+ProgressBar.UI.Pause();			// pause progress
+ProgressBar.UI.Play();			// continue progress
+ProgressBar.UI.Hide();			// Hides progress bar
+ProgressBar.UI.Show()			// Show progress bar
 ```
 
 
