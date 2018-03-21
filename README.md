@@ -1,4 +1,5 @@
 # ProgressBar
+
 Simplify progress bar implementation on winforms
 
 ![Sample](https://github.com/herbertagosto/ProgressBar/blob/master/Resources/sample.png)
